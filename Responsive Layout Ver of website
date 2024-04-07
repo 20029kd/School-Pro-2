@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!-- Responsive Menu -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+
+  <nav>
+  <div class="navigation" role="navigation">
+    <div class="nav-bar">
+      <div class="mobile-icon">.</div>
+      <ul>
+        <li><a  href="#">one</a></li>
+  
+        <li><a href="#">two</a></li>
+
+        <li><a  href="#">three</a></li>
+
+        <li><a href="#">four</a></li>
+
+        <li><a  href="#">five</a></li>
+      </ul>
+     </div>
+    </div>
+    </nav>
+
+</body>
+
+
+
+  
+  <div class="background"> 
+  </div>
+  
+    <script src="script.js"></script>
+
+</html>
