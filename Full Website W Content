@@ -1,0 +1,320 @@
+Content.html
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+  
+
+
+<body>
+
+  <header>
+    <img src= "Banner.png" alt="Banner of cars caught on camera.">
+  </header>
+
+  <!-- Responsive Menu -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+
+  <nav>
+  <div class="navigation" role="navigation">
+    <div class="nav-bar">
+      <div class="mobile-icon">.</div>
+      <ul>
+        <li><a  href="index.html">Home</a></li>
+        <li><a  href="#Image1">One</a></li>
+        <li><a href="#Image2">Two</a></li>
+        <li><a  href="#Image3">Three</a></li>
+    
+      </ul>
+     </div>
+    </div>
+    </nav>
+  
+
+  <div id="Image1"></div>
+      <section> <h1> 1979 Chevrolet Camaro </h1> <p> This is the second genreation of the iconic american pony car. This generation of Chevrolet Camaro was produced between it was 1970 to 1981. </p> <p> This Partiular Camaro (shown above) has a 305 cubic-inch or 5 litre v8, mated to an automatic transmission. which was one of the cars down falls, was its overall performance, Higher-performance configurations were initially available, but the marketplace changed as 1970s progressed with fuel crisis, higher insurance rates, and tightening emissions regulations</p> <p> Major styling changes were made in 1974 and 1978; 1981 was the final model year for the second-generation Camaro. </p> </section>
+  <div id="Image2"></div>
+      <section> <h1> 1995 Mitsubishi GTO </h1> <p>The Mitsubishi 3000GT is a front-engine, all-wheel/front-wheel drive grand touring/sports car manufactured by Mitsubishi from 1990 until 2000, over three different generations. Manufactured in a three-door hatchback the 2+2 four-seaters were marketed in the Japanese domestic market (JDM) as the GTO, and globally as 3000GT.</p> <p> This specific 3rd gen gto, is far from stock, made 400hp to all 4 wheels!!</p></section>
+  <div id="Image3"></div>
+      <section> <h2> 1976 Chevrolet Monte Carlo</h2> <p> This specific Chevrolet Monte Carlo is a second generation, produced between 1973-1977, The Monte Carlo marketed as the first personal luxury car of the Chevrolet brand. Introduced for the 1970 model year, the model line was produced across six generations through the 2008 model year, with a hiatus from 1989 to 1994.</p> <p> This specific monte carlo is a redesigned 2nd generation, equipped with a 350 small block chevrolet v8, mated to a 3 speed automatic transmission</p></section>
+      <footer></footer>
+
+
+
+   <script src="script.js"></script>
+</body>
+
+</html>
+
+Index.html
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<style>
+h1 {
+  text-align: center;
+  padding: top;
+  font-size: 100px;
+}
+
+p {
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+  width: 200px;
+  background-color: #b8b8b8;
+  border-radius: 10px;
+}
+</style>
+  
+<body>
+  <h1>Cars Caught On Cam</h1>
+
+  <p><a href="content.html">Click To Enter</a></p>
+
+  <div class="background"> 
+  </div>
+  
+</body>
+  
+</html>
+
+Style.css
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+   background-color: #5c5c5c;
+  
+    /*moves banner down*/
+    margin-top: 100px;
+  }
+header img {
+  display: block;
+  margin: auto;
+  
+}
+/*Background images for content page */
+#Image1 {
+    background-image: url(Images/Image-1.jpg);
+    background-size: cover;
+    max-width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+
+#Image2 {
+  background-image: url(Images/Image-2.png);
+  background-size: cover;
+  max-width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+#Image3 {
+  background-image: url(Images/Image-3.JPG);
+  background-size: cover;
+  max-width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+   /*navigation stuff*/
+  #navbar {
+    overflow: hidden;
+    background-color: #5c5c5c;
+    background-size: cover;
+    background-position: center;
+  }
+
+ section {
+   background-color: #5c5c5c;
+   height: 600px;
+ }
+
+  .section {
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+  }
+  
+
+  /*moves text down*/
+section {
+  margin-top: 100px;
+}
+
+/* FULL SCREEN - Navigation Style */
+
+.nav-bar {
+  width: 100%;
+  position: fixed;
+  height:auto;
+  z-index: 999;
+  top: 0;
+  font-size: 18px;
+  background-color: #b8b8b8;
+}
+.nav-bar li:last-child {
+  margin-right: 60px;
+}
+
+a {
+  text-decoration: none;
+  color:inherit;
+}
+
+nav ul {
+  overflow: hidden;
+  text-align:center;
+  padding: 1%;
+  margin-left: 0;
+  -webkit-transition: max-height 0.4s;
+  -ms-transition: max-height 0.4s;
+  -moz-transition: max-height 0.4s;
+  -0-transition: max-height 0.4s;
+  transition: max-height 0.4s;
+}
+
+nav ul li {
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  padding: 10px 15px;
+  letter-spacing: 1px;
+  color: black;
+}
+
+ nav a:hover {
+  color: #ff00dd;
+}
+/* Mobile navigation */
+.mobile-icon {
+  width: 100%;
+  text-align: right;
+  box-sizing: border-box;
+  cursor: pointer;
+  color: #ff66eb;;
+  display: none;
+  font-size: 20px;
+  font-family: bold;
+  margin: 2% 2%;
+  position: relative;
+  padding-left: 1.25em;
+}
+/* style of mobile icron */
+.mobile-icon:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.2em;
+  width: 1.2em;
+  height: 0.16em;
+  background: black;
+  box-shadow: 0 0.35em 0 0 black, 0 0.7em 0 0 black;
+}     
+
+
+
+/* RESPONSIVE CSS - Media Query */
+
+@media screen and (max-width: 1300px) {
+
+    .mobile-icon {
+      display: block;
+    }
+
+    nav ul {
+      max-height: 0px;
+      padding: 0px;
+    }
+
+    /* mobile nav  */
+    .showing {
+      max-height: 20em;
+      padding-bottom: 10px;
+      font-size: 18px;
+    }
+    /* end */
+
+    .nav-bar {
+      width:100%;
+      background-color: #a6a6a6;
+    }
+
+    nav ul li {
+      box-sizing: border-box;
+      width: 100%;
+      text-align: center;
+    }
+
+    nav ul li:hover {
+      background-color: black;
+      width: 100%;
+      color: pink;
+    }
+
+    .nav-bar {
+      display: block;
+    }
+  
+  #Image1 {
+    display: none;
+  }
+
+  #Image2 {
+    display: none;
+  }
+ 
+  #Image3 {
+    display: none;
+  }
+
+}
+
+
+/* Sections */
+
+section {
+  padding: 5px;
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+  width: fill;
+  background-color: #5c5c5c;
+
+}
+
+Stle.js
+
+$(document).ready(function(){
+
+  $('.mobile-icon').click( function() {
+    $('nav ul').toggleClass("showing");
+
+  });
+
+});
